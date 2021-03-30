@@ -1,5 +1,7 @@
 from collections import Counter
-str = "Missisipi"
-res = Counter(str)
-print("Count of all characters in Missisipi is :\n "
-      + res)
+def most_frequent():
+    test_str = "Missisipi"
+    res = Counter(test_str)
+    print("Count of all characters in Missisipi is :\n "
+          + str(res))
+f1=most_frequent()
