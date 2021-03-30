@@ -1,0 +1,5 @@
+from collections import Counter
+str = "Missisipi"
+res = Counter(str)
+print("Count of all characters in Missisipi is :\n "
+      + res)
