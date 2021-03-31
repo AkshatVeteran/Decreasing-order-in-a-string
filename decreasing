@@ -8,4 +8,4 @@ def most_frequent(string):
             d[key] += 1
     return Counter(d)
 
-print (most_frequent('MISSISSIPI'))
+print (most_frequent('MISSISSIPPI'))
